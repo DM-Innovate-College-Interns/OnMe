@@ -1,12 +1,13 @@
 import React, { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import "./styles.css";
+import "./Stylesheets/LoginScreen.css";
+import "./Stylesheets/General.css";
 
-import App from "./App";
+import LoginScreen from "./Components/LoginScreen";
 
 const root = createRoot(document.getElementById("root"));
 root.render(
   <StrictMode>
-    <App />
+    <LoginScreen />
   </StrictMode>
 );

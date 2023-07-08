@@ -1,0 +1,41 @@
+.not-logged-in-info-container {
+  width: 100vw;
+  height: 50vh;
+  padding: 20px;
+  color: white;
+  background-color: #4F7D3F;
+  border-radius: 0px 0px 40px 40px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+@media (min-width: 470px) {
+  .not-logged-in-info-container {
+    width: 470px;
+  }
+}
+
+#onme-title {
+  width: 85%;
+}
+
+@media (min-width: 400px) {
+  #onme-title {
+    width: 310px;
+  }
+}
+
+#onme-title > *{
+  margin: 40px 0px 40px 0px;
+}
+
+#features-list {
+  margin: 0px;
+}
+
+#not-logged-in-info-padding {
+  height: 80px;
+}
