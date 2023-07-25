@@ -1,0 +1,13 @@
+.entire-group-screen-flex-box {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.group-screen-main-content-div {
+    width: 100%;
+    flex-grow: 1;
+    overflow: scroll !important;
+}
