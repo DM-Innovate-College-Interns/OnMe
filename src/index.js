@@ -10,6 +10,6 @@ import GroupScreen from "./Components/GroupScreen";
 const root = createRoot(document.getElementById("root"));
 root.render(
   <StrictMode>
-      <GroupScreen />
+      <GroupScreen color={"#0e3f10"} />
   </StrictMode>
 );

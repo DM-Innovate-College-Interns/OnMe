@@ -1,12 +1,54 @@
 .entire-group-screen-flex-box {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 
 .group-screen-main-content-div {
     width: 100%;
     flex-grow: 1;
-    display: overflow;
+    overflow: scroll;
+}
+
+.month-activity-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+@media (min-width: 355px) {
+    .month-activity-wrapper {
+        width: 355px;
+    } 
+}
+
+@media (min-width: 710px) {
+    .month-activity-wrapper {
+        width: 50%;
+    } 
+}
+
+.group-activity-item-name-date {
+    flex-direction: column;
+    justify-self: start;
+}
+
+.group-activity-item-name-date p {
+    margin: 0px;
+}
+
+.group-activity-item-people {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+}
+
+.group-activity-item-debt {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 107px;
 }
