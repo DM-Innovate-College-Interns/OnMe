@@ -21,15 +21,24 @@
     flex-wrap: nowrap;
 }
 
-@media (max-width: 430px) {
+@media (max-width: 340px) {
     .group-button-flex-wrapper {
         flex-wrap: wrap;
+        align-items: center;
+        width: auto;
     }
     .group-button-flex-wrapper > *{
         margin-right: 0 !important;
         margin-left: 0 !important;
     }
-    .group-button-flex-wrapper:nth-child(2) {
+    #money-display-wrapper {
         margin-bottom: 10px !important;
+    }
+    #avatar-and-name-wrapper {
+        align-items: center;
+        width: 100%;
+    }
+    #avatar-and-name-wrapper h3 {
+        margin: 5px;
     }
 }
